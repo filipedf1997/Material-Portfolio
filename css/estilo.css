@@ -1,0 +1,455 @@
+/*GERAIS*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Lato",sans-serif;
+}
+
+.gradiente {
+  background: linear-gradient(120deg,#7f70f5,#0ea0ff);
+  color: #fff;
+}
+
+h2{
+	font-size: 2em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+h4{
+	font-size: 1.3em;
+}
+
+/*MENU PRINCIPAL*/
+header nav{
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+	
+}
+
+.navbar{
+	padding-top: 1.1em;
+	padding-bottom: 1.1em;
+}
+
+header a{
+	color: #fff;
+	font-weight: 500;
+}
+
+header a:hover{
+	color: hsla(0,0%,100%,.75);
+}
+
+/*HOME*/
+#home{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+	margin-top: 8em;
+	margin-bottom: 4em;
+}
+
+#home a{
+	border-radius: 10em;
+	padding: 0.4em 1em;
+}
+
+.avatar{
+	width: 6.5em;
+	border-radius: 6em;
+}
+
+/*MURAL*/
+#mural{
+	border-bottom: 1px solid lightgray;
+}
+
+.mural-img{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.img-ani{
+	transition: transform 1s, opacity 1s;
+}
+
+.img-ani:hover{
+	transform: scale(1.4);
+	opacity: 0.7;
+}
+
+.texto-botao span{
+	font-size: 1.75rem;
+	margin-right: 1.5em;
+}
+
+#mural .btn{
+	border-radius: 10em;
+	padding: 0.4em 1em;
+	font-size: 1.2em;
+}
+
+.texto-botao{
+	padding: 3.8em 0;
+}
+
+.col-texto-botao{
+	display: flex;
+	justify-content: center;
+}
+
+/*SKILLS*/
+#skills{
+	text-align: center;
+	margin: 6.5em 0;
+}
+
+#skills h2{
+	margin-bottom: 2.5em;
+}
+
+.cards{
+	text-align: center;
+	padding: 0 2.5em;
+}
+
+.icones{
+	color: #fff;
+	background-color: #0ea0ff;
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 1.5em;
+	text-align: center;
+	padding: 12px;
+	margin-bottom: 0.6em;
+}
+
+.cards p{
+	color: #8e8e8e;
+}
+
+/*PROJECT*/
+#project{
+	padding: 6em 0;
+}
+
+#project .texto{
+	text-align: right;
+	margin-top: 2.5em;
+	margin-bottom: 1.5em;
+	padding-left: 7em;
+}
+
+#project h3{
+	font-size: 1.75rem;
+	font-weight: 600;
+}
+
+#project p{
+	opacity: 0.9;
+}
+
+/*RODAPE*/
+footer{
+	text-align: center;
+	margin: 2.5em 0;
+}
+
+footer a{
+	color: #000;
+	font-size: 1.1rem;
+	margin-right: 1.3em;
+}
+
+footer a:hover{
+	color: #000;
+}
+
+.img-footer{
+	width: 1.9em;
+	margin-top: 1.3em;
+	margin-right: -0.8em;
+}
+
+/*////////////////////////////PROJECTS PAGE/////////////////////////////////////////*/
+/*RODAPE*/
+#home-projects{
+	text-align: center;
+	margin-top: 12em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 6em;
+}
+
+#home-projects h2{
+	margin-bottom: 2.3em;
+}
+
+.card{
+	border: none;
+	margin-bottom: 1.5em;
+}
+
+.card-body{
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.card img{
+	transition: transform 0.6s;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img:hover{
+	transform: scale(1.06);
+}
+
+.card a{
+	color: #000;
+}
+
+.card a:hover{
+	text-decoration: none;
+}
+
+.card h6{
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.card p{
+	font-size: 0.9em;
+	opacity: 0.6;
+	margin-top: -0.3em;
+}
+
+/*////////////////////////////CV PAGE/////////////////////////////////////////*/
+#work-xp{
+	border-top: 1px solid lightgray;
+}
+
+.h2-cv{
+	text-align: center;
+	font-weight: 700;
+	margin: 2.5em 0;
+}
+
+.col-linha{
+	border-bottom: 1px solid #eee;
+	padding-top: 1.1em;
+	padding-bottom: 1.1em;
+}
+
+.data-trabalho{
+	opacity: 0.4;
+	font-weight: 600;
+	font-size: 0.8em;
+}
+
+.texto-trabalho{
+	color: #6c757d;
+	font-weight: 300;
+}
+
+.bd-cv{
+	font-weight: 300;
+	font-size: 0.9rem;
+}
+
+.bd-verde{
+	background-color: #20c997;
+	color: #fff;
+}
+
+.progress{
+	height: 3px;
+}
+
+.row-infos{
+	margin-top: 6em;
+	margin-bottom: 6em;
+}
+
+.card-infos{
+	box-shadow: 0 2px 10px rgba(0,0,0,.075);
+	padding: 2em;
+	height: 100%;
+}
+
+.card-infos h4{
+	font-size: 1.4rem;
+	font-weight: 600;
+	margin-bottom: 1.2em;
+}
+
+.card-infos .progress{
+	margin-bottom: 1.7em;
+}
+
+.card-infos i{
+	color: #6091ef;
+	margin-right: .8em;
+	margin-bottom: .7em; 
+}
+
+.card-infos span{
+	font-weight: 300;
+}
+
+#hobbies{
+	text-align: center;
+	margin-top: -5em;
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 6em;
+}
+
+#hobbies p{
+	color: #6c757d;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+/*////////////////////////////CONTACT PAGE/////////////////////////////////////////*/
+#contact{
+	margin-top: 12em;
+	padding-bottom: 2em;
+	border-bottom: 1px solid lightgray;
+}
+
+#contact h2{
+	text-align: center;
+}
+
+#contact form{
+	box-shadow: 0 2px 10px rgba(0,0,0,.1);
+	width: 60%;
+	margin: 5em auto;
+	padding: 3em;
+}
+
+#contact button{
+	border-radius: 2em;
+}
+
+/*////////////////////////////CELL/////////////////////////////////////////*/
+@media (max-width: 768px){
+	.navbar{
+		padding-top: 0.9em;
+		padding-bottom: 0.9em;
+	}
+
+	nav img{
+		width: 100;
+	}
+
+	#home{
+		margin-top: 6em;
+		margin-bottom: 2em;
+	}
+
+	/*MURAL*/
+	.mural-img{
+		margin: 0 1em;
+		background-color: none;
+	}
+
+	.img-ani:hover{
+		transform: none;
+		opacity: 1;
+	}
+
+	.col-texto-botao{
+		display: block;	
+		text-align: center;
+	}
+
+	.texto-botao span{
+		margin-right: 0;
+	}
+
+	/*SKILLS*/
+	#skills{
+		margin: 4em 0;
+	}
+
+	#skills h2{
+		font-size: 1.5em;
+		font-weight: 600;
+		margin-bottom: 2.5em;
+	}
+
+	.cards{
+		margin-bottom: 2em;
+	}
+
+	/*PROJECT*/
+	#project{
+		padding: 3em 0;
+		text-align: center;
+	}
+
+	#project .texto{
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 2em;
+		padding: 0 2em;
+	}
+
+	#project img{
+		padding: 0 2em;
+		margin-bottom: 0.5em;
+	}
+	/*////////////////////////PAGE PROJECTS//////////////////////////*/
+	#home-projects{
+		margin-top: 8em;
+		margin-bottom: 1em;
+		border-bottom: 1px solid lightgray;
+		padding-bottom: 5em;
+	}
+
+	#home-projects h2{
+		margin-bottom: 2.3em;
+		font-size: 1.4em;
+	}
+
+	/*////////////////////////PAGE CV//////////////////////////*/
+	.h2-cv{
+		text-align: center;
+		font-weight: 700;
+		margin: 2.5em 0;
+		font-size: 1.4em;
+	}
+
+	.col-data{
+		display: flex;
+  		justify-content: flex-start !important; 
+	}
+
+	#hobbies{
+		text-align: center;
+		margin-top: -3em;
+		padding-bottom: 3em;
+	}
+
+	/*////////////////////////PAGE CONTACT//////////////////////////*/
+	#contact{
+		margin-top: 8em;
+	}
+
+	#contact h2{
+		font-size: 1.4em;
+	}
+
+	#contact form{
+		min-width: 100%;
+		padding: 1em;
+		margin-top: 3em;
+		margin-bottom: 1em;
+	}
+
+	#contact button{
+		margin: 2em 0;
+	}
+}
